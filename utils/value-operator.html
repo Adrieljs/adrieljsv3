@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Value Operator</title>
+    <link rel="icon" href="../img/ajs.png" type="image/x-icon">
+
+    <!--META-->
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Input jumlah salah, soal dan KKM untuk menghitung nilai-nilai dalam ulanganmu!"/>
+    <meta name="keywords" content="Adriel's Website,Adriel website,zion,smpzion,adrieljs,adriel,kalkulator nilai,nilai kalkulator"/>
+    <meta name="author" content="AdrielJS"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--STYLES & SCRIPTS-->
+    <link rel="stylesheet" type="text/css" href="../src/utils/value-operator/css/v1.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/global/global.css"/>
+    <script src="../src/utils/value-operator/js/v1.js"></script>
+    <noscript>Sorry, but your browser does not support JavaScript!</noscript>
+
+    <header><a href="../index.html">adrieljs.xyz</a> / <mark>utils</mark> / <a href="#" style="color: royalblue">value-operator</a></header>
+    
+  </head>
+  
+  <body>
+    <h2>Input semua nilai berikut:</h2>
+    <h3 style="color: grey">(Jika merah dan semua nilai itu 0, maka ada yang bermasalah. Jika hijau artinya berhasil mengkalkulasi.)</h3><br/>
+    <p style="color: black">Jumlah Salah<mark style="color: red; background-color: transparent">*</mark></p>
+    <input type="number" placeholder="Jumlah Salah" id="jumlahSalah" min="0"/><br/>
+    <p style="color: black">Jumlah Soal<mark style="color: red; background-color: transparent">*</mark></p>
+    <input type="number" placeholder="Jumlah Soal" id="jumlahSoal" min="0"/><br/>
+    <p style="color: black">KKM<mark style="color: red; background-color: transparent">*</mark></p>
+    <input type="number" placeholder="KKM" id="kkm" min="0"/><br/>
+    <input type="button" value="Submit" onclick="submit()"/><br/><br/>
+    <p>Nilai tidak dibulat:</p>
+    <textarea id="output1" class="output1" readonly></textarea>
+    <p>Nilai dibulat:</p>
+    <textarea id="output2" class="output1" readonly></textarea>
+  </body>
+</html>

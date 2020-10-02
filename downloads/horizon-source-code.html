@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Horizon Source Code</title>
+    <link rel="icon" href="../img/ajs.png" type="image/x-icon">
+
+    <!--META-->
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Discord Horizon Bot source code made by Adriel."/>
+    <meta name="keywords" content="Adriel's Website,Adriel website,zion,smpzion,adrieljs,adriel,horizon source code,horizon code,horizon download,horizon code download, horizon discord"/>
+    <meta name="author" content="AdrielJS"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--STYLES & SCRIPTS-->
+    <link rel="stylesheet" type="text/css" href="../src/downloads/global/css/d1.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/global/global.css"/>
+    <script src="../src/downloads/global/js/d1.js"></script>
+    <noscript>Sorry, but your browser does not support JavaScript!</noscript>
+
+    <header><a href="../index.html">adrieljs.xyz</a> / <a href="../downloads.html" style="color: royalblue">downloads</a> / <a href="#" style="color: royalblue">horizon-source-code</a></header>
+    
+  </head>
+  
+  <body>
+      <h2>Horizon Source Code</h2>
+      <h3 style="color: grey">(Download discord bot Horizon source code.)</h3>
+
+      <section>
+      <h3>Start downloading by clicking the letters in the bar below.</h3>
+      <div class="downloadbtn" id="v1.0.1"><a class="downloadstf" href="../download_files/horizon-src-code-v1.0.1.zip" download><p class="downloadcontent"><mark style="color: #7d8c99">horizon-src-code-v1.0.1.zip</mark><br/>25.1KB</p></a></div>
+      <div class="downloadbtn" id="v1.0.0"><a class="downloadstf" href="../download_files/horizon-src-code-v1.0.0.zip" download><p class="downloadcontent"><mark style="color: #7d8c99">horizon-src-code-v1.0.0.zip</mark><br/>25KB</p></a></div>
+      </section>
+
+      <section>
+        <h2 id="manual">User Manual</h2>
+        <p>This manual is NOT meant to provide more information than setting up the bot.</p><br/>
+        <h3>The Basics</h3>
+        <p>1. Install <a href="https://nodejs.org/en/download/" target="_blank">Node.js</a> in your computer.</p>
+        <p>2. Make an application in <a href="https://discord.com/developers/applications" target="_blank">Discord Developer Portal</a>.</p>
+        <p>3. In that application, go to the <mark>Bot</mark> category and on the <mark>Build-A-Bot section</mark>, click <mark>Add Bot.</mark></p>
+        <p>4. After creating your bot, on the <mark>Build-A-Bot</mark> section, copy your token.</p>
+        <p>5. Now, go to your code editor, and search a <mark>config.json</mark> file.</p>
+        <p>- 5.1. I recommend using <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> for your code editor.</p>
+        <p>6. The <mark>config.json</mark> file should look like this.</p>
+        <img src="../img/configjson_file.png" style="width: 400px;"/>
+        <p>7. Replace <mark>YOUR_BOT_TOKEN</mark> in <mark>"token"</mark> with your copied token.</p>
+        <p>- 7.1. Please note that, you MUST NOT replace any variable name, unless you know what you're doing.</p>
+        <p>- 7.2. Do not delete the quotes, the colon and the comma when replacing <mark>YOUR_BOT_TOKEN</mark> and/or other values.</p>
+        <p>8. Replace <mark>YOUR_PREFIX</mark> in <mark>"default_prefix"</mark> with whatever prefix you want your bot to have.</p>
+        <p>9. For <mark>"api-translate"</mark> (translate command) and <mark>"api-youtube"</mark> (music command), go to <a href="https://console.developers.google.com">Google Cloud Platform</a>.</p>
+        <p>- 9.1. In <a href="https://console.developers.google.com">Google Cloud Platform</a>, go to the <mark>API & Services</mark> category.</p>
+        <p>- 9.2. After entering <mark>API & Services</mark> Category, create a new project.</p>
+        <p>- 9.3. On the top bar, click <mark>ENABLE APIS AND SERVICES</mark>, and search for <mark>Cloud Translation API</mark> and <mark>YouTube Data API v3</mark>, then click <mark>ENABLE</mark> to enable the APIs.</p>
+        <p>- 9.4. Go to Credentials > CREATE CREDENTIALS (on the top bar.) > Help me choose (for <mark>Cloud Translation API</mark>, just click API key.)</p>
+        <p>- 9.4. Your first step on <mark>Help me choose</mark> should look like this.</p>
+        <img src="../img/api_stuff.png" style="width: 400px;"/>
+        <p>- 9.5. Then click on <mark>What credentials do i need?</mark> to proceed.</p>
+        <p>- 9.6. Copy your <mark>YouTube Data API v3</mark> and <mark>Cloud Translation API</mark> API keys.</p>
+        <img src="../img/api_key.png" style="width: 400px;"/>
+        <p>10. Replace <mark>YOUR_API_TRANSLATE_TOKEN</mark> (Cloud Translation API) and <mark>YOUR_API_YOUTUBE_TOKEN</mark> (YouTube Data API v3) with your copied API keys.</p>
+        <p>11. Install packages by typing in console <mark>npm install .</mark> (npm install dot, that's not for grammar.)</p>
+        <p>12. Run the bot with typing <mark>node .</mark> or <mark>node index2.js</mark> in your console.</p>
+        <p>12.1. Open the console with <mark>ctrl + `</mark>.</p>
+      </section>
+
+      <section>
+        <h3>Make your bot online 24/7</h3>
+        <p style="color: grey;">(This process is entirely FREE.)</p>
+        <p>1. Go to <a href="https://github.com/">GitHub</a> and create an account (if you don't have one.)</p>
+        <p>2. Create a new repository.</p>
+        <p>2.1. The repository can be public or private, it's your choice. I recommend the private option.</p>
+        <p>2.2. Upload horizon's files to your newly created repository.</p>
+        <img src="../img/repository_upload.png" style="width: 400px;"/>
+        <p>2.3. There are some ways to upload your files, but this requires the least amount of set-up.</p>
+        <p>3. Go to <a href="https://www.heroku.com/">Heroku</a> and create an account (If you don't have one.)</p>
+        <p>4. Create a new application, go to <mark>Deploy</mark> and on the <mark>Deployment Method</mark>, click <mark>Connect to GitHub</mark> and connect to your account.</p>
+        <p>5. Connect to your newly created repository.</p>
+        <p>6. Go to <mark>Settings</mark> on the navbar, go to the <mark>Buildpacks</mark> section, click Add buildpack.</p>
+        <p>6.1. Enter this URL on the text area <a href="../sheets/jyfjIStxkIgtRu6pCheznIxJ4ifjMS7w.txt">https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git</a> (click the link and ctrl + A)</p>
+        <p>7. Go to <mark>Deploy</mark> on the navbar, scroll to the most bottom, then click <mark>Deploy Branch</mark>.</p>
+        <p>8. Go to <mark>Resources</mark> on the navbar, on the <mark>Free Dynos</mark> section, switch Worker to on, and Web to off.</p>
+        <p>9. You're all set!</p>
+      </section>
+  </body>
+</html>

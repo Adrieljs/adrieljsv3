@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 35px;
+    font: 18px Arial;
+    color: #495057;
+    background-color: #f1f3f5;
+}
+a {
+    text-decoration-line: none;
+    color: palevioletred;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+    padding: 0;
+}
+section {
+    margin-top: 40px;
+}
+header {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+mark {
+    background-color: transparent;
+    color: gray
+}
+img {
+    width: 40px;
+}
+.downloadbtn {
+    display: block;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    font-size: 20px;
+    border-left: 5px solid #adb5bd;
+    background-color: #e9ecef;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: fit-content;
+    max-width: fit-content;
+    border-right: 20px solid #e9ecef;
+}
+.downloadcontent {
+    display: block;
+    font-size: 20px;
+    background-color: #e9ecef;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #adb5bd;
+}
+
+.downloadstf:hover {
+    text-decoration-line: none;
+}

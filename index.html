@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Adrieljs</title>
+    <link rel="icon" href="./img/ajs.png" type="image/x-icon">
+
+    <!--META-->
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Adriel's interactive website full of informations and utilities."/>
+    <meta name="keywords" content="Adriel's Website,Adriel website,zion,smpzion,adrieljs,adriel"/>
+    <meta name="author" content="AdrielJS"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--STYLES & SCRIPTS-->
+    <link rel="stylesheet" type="text/css" href="./src/index/css/index1.css"/>
+    <link rel="stylesheet" type="text/css" href="./src/global/global.css"/>
+    <script src="./src/index/js/index1.js"></script>
+    <noscript>Sorry, but your browser does not support JavaScript!</noscript>
+    
+  </head>
+
+  <body>
+    <header>
+      <div class="container-txt-over-img">
+        <picture>
+          <source
+            srcset="img/background-img.jpg"
+            type="image/jpg"
+            media="all and (max-width:700px)"
+            style="width: 100%;"/>
+          <source
+            srcset="img/background-img-size2.jpg"
+            type="image/jpg"
+            media="all and (min-width:701px) and (max-width:1000px)"
+            style="width: 100%;"/>
+          <source
+            srcset="img/background-img-size3.jpg"
+            type="image/jpg"
+            media="all and (min-width:1001px)"
+            style="width: 100%;"/>
+          <img src="img/background-img-size2.png" style="width: 100%;"/>
+        </picture>
+        <div class="txt-img">adrieljs<mark style="background-color: transparent; color: coral">.xyz</mark><p style="font-size: 40%;">through imagination.</p></div>
+      </div>
+    </header>
+
+    <section id="welcome">
+      <h2>Welcome to Adriel's website!</h2>
+      <p>This website is used for previewing information, providing utilities, and much more!</p><br/>
+      <h3>Jump to diffrent sections:</h3>
+      <a href="#newest">- Newest</a>
+      <br/>
+      <a href="#stuff">- Stuff</a>
+      <br/>
+      <a href="#more-about">- More about adrieljs.xyz</a>
+      <br/>
+      <a href="#contact">- Contact me</a>
+      <br/>
+      <a href="#3rd-libs">- Third party libraries</a>
+      <br/>
+      <a href="#web-managers">- Website Managers</a>
+      <br/>
+      <a href="#languages">- Programming Languages</a>
+    </section>
+
+    <section id="newest">
+      <h2>Newest</h2>
+      <p>Check <a href="change-logs.html">the Change Logs</a> for more information.</p>
+      <p>− Fixed the image problem on the header due to screen sizes.</p>
+      <p>− Added <a href="change-logs.html">Change Logs</a> for better website change overview.</p>
+    </section>
+
+    <section id="stuff">
+      <h2>Stuff</h2>
+      <div class="dropdown">
+        <button id="dropdownbtn2" onclick="dropdown()" class="dropbtn">▼ Tools</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="./utils/value-operator.html">Value Operator</a>
+          <a class="not-available" href="#">Code Editor</a>
+          <a class="not-available" href="#">COVID-19 Stats</a>
+        </div>
+      </div>
+        <p>- <a href="./downloads.html">Downloads</a></p>
+        <p>- <a href="./change-logs.html">Change Logs</a> − <mark style="color: indianred; background-color: transparent;">New!</mark></p>
+        <p><mark class="not-available">- Projects</mark></p>
+        <p><mark class="not-available">- Tutorials</mark></p>
+    </section>
+
+    <section id="more-about">
+      <h2>More about adrieljs.xyz</h2>
+      <p>adrieljs.xyz is a domain bought through <a href="https://www.domainesia.com/" target="_blank">DomaiNesia</a> for about almost $1. This website is bought, created, programmed and managed by Adriel in early September.</p>
+      <p>This website is powered, secured, and managed through <a href="https://github.com/" target="_blank">GitHub</a>, SSL Manager from <a href="https://zerossl.com/">ZeroSSL</a>.</p>
+      <p>Adriel does HTML, CSS, and JavaScript, this website is coded through those three too.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact me</h2>
+      <p>Contact me through:</p>
+      <img src="./img/gmail_ico.png" style="width: 19px;"/>
+      <p class="text-beside-image">1mmunitybigbrain@gmail.com</p><br/>
+      <img src="./img/discord_ico.png" style="width: 19px;"/>
+      <p class="text-beside-image">1mmunity#5719</p><br/>
+      <img src="./img/discord_ico.png" style="width: 19px;"/>
+      <p class="text-beside-image"><a href="https://discord.gg/P8w2m6d" target="_blank">https://discord.gg/P8w2m6d</a></p>
+    </section>
+
+    <section id="3rd-libs">
+      <h2>Third party libraries</h2>
+      <p>None for now, but i'm planning on using <a href="https://jquery.com/" target="_blank">jQuery</a> and <a href="https://codemirror.net/" target="_blank">CodeMirror</a>.</p>
+    </section>
+
+    <section id="web-manager">
+      <h2>Website Managers</h2>
+      <img src="./img/github_ico.png" style="width: 19px"/>
+      <a href="https://github.com/" target="_blank" class="text-beside-image">GitHub</a> − Hosting & Manager<br/>
+      <img src="./img/domainesia_ico.png" style="width: 19px"/>
+      <a href="https://www.domainesia.com/" target="_blank" class="text-beside-image">DomaiNesia</a> − Domain & DNS Manager<br/>
+      <img src="./img/zerossl_ico.png" style="width: 19px"/>
+      <a href="https://zerossl.com/" target="_blank" class="text-beside-image">ZeroSSL</a> − SSL Certificate Manager<br/>
+    </section>
+
+    <section id="languages">
+      <h2>Programming Languages</h2>
+      <p>HTML − For website itself</p>
+      <p>CSS − For website styling</p>
+      <p>JavaScript − For website interactivity</p>
+    </section>
+  </body>
+</html>
