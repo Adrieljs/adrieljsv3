@@ -35,7 +35,6 @@ function submit() {
     if (salah <= 0) note = "ERR: Jumlah salah tidak bisa atau dibawah 0.\n";
     if (soal <= 0) note = "ERR: Jumlah soal tidak bisa atau dibawah 0.\n";
     if (kkm <= 0) note = "ERR: KKM tidak bisa atau dibawah 0.\n";
-    if (salah > soal) note = "ERR: Jumlah salah tidak bisa melebihi soal.\n";
     document.getElementById('output1').value = '';
     document.getElementById('output1').value += `${note}`;
     document.getElementById('output1').value += `Nilai: ${nilaiSebenarnya}\n`;
